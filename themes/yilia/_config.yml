@@ -56,7 +56,7 @@ google_analytics: ''
 favicon: /favicon.jpg
 
 #你的头像url
-avatar: assets/configImg/avatar.jpg
+avatar: /assets/configImg/avatar.jpg
 
 #是否开启分享
 share_jia: true
@@ -83,4 +83,4 @@ friends:
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 浙江大学计算机专业<br>硕士研究生在读<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家

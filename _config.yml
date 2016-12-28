@@ -5,7 +5,7 @@
 # Site
 title: oliver的博客
 subtitle: 必须非常努力,才能看起来毫不费力
-description: hahaha
+description: 浙江大学计算机学院 CAD实验室 硕士研究生 技术博客
 author: Shangyang
 language:
 timezone:
@@ -68,7 +68,15 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  - type: git
+    repository: git@github.com:oliverzju/oliverzju.github.io.git
+    branch: master
+
+  - type: rsync
+    host: shangyang.life
+    user: root
+    prot: 80
+    root: /shangyang.life
 
 jsonContent:
     meta: false
