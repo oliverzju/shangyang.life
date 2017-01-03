@@ -68,10 +68,6 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  - type: git
-    repository: git@github.com:oliverzju/oliverzju.github.io.git
-    branch: master
-
   - type: rsync
     host: shangyang.life
     user: root
